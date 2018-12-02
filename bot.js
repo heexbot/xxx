@@ -41,14 +41,6 @@ if (message.content.startsWith(adminprefix + 'setava')) {
 
 
 
-client.on('guildMemberAdd', member => {
-const mohamed= member.guild.channels.get("517694665135226891");
-if(!mohamed) return;
-if(mohamed) {
-setTimeout(() => mohamed.send(`**Welcome to Sailor 🌹 **`), 4000)        
-}
-});
-
 
 
 client.login(process.env.BOT_TOKEN);
