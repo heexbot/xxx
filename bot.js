@@ -10,4 +10,4 @@ setTimeout(() => mohamed.send(`__WELCOME TO DESERT__`), 4000)
 });
 
 
-cient.login(process.env.BOT_TOKEN);
+client.login(process.env.BOT_TOKEN);
